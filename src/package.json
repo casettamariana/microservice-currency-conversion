@@ -1,0 +1,19 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "Microservice Currency Conversion",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js", 
+    "dev": "node node_modules/nodemon/bin/nodemon.js index.js"
+  },
+  "keywords": [],
+  "author": "@casettamariana",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
