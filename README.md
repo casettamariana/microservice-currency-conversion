@@ -32,3 +32,8 @@
 
 * NodeJs
 * Express
+* Axios
+
+<h2>Api usada:</h2>
+
+[AwesomeAPI](https://docs.awesomeapi.com.br/api-de-moedas)
