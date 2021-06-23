@@ -104,6 +104,6 @@ yarn test
 
 - Gostaria de ter acrescentado a documentação do [Swagger.io](https://swagger.io/), para que a API seja melhor documentada para o cliente.
 
-- Feito mais testes voltado para erros.
+- Feito mais testes.
 
 - Melhorar a resposta da API, usando outras API's que tenham outras tipos de moedas de mais países, como por exemplo, a INR (Índia), que foi usada por vocês no exemplo do desafio.
