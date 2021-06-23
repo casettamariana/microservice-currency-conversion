@@ -6,10 +6,26 @@ const coinsData = require('../util/coinsData.json');
 
 function convertValue(valueCoin, valueToConvert) { return valueCoin * valueToConvert }
 
+function saveInArray(data) {
+    coinsData.data = data;
+}
+
+async function conectAwesomeApi() {
+    const urlApi = 'https://economia.awesomeapi.com.br/json/all';
+    const response = await axios.get(`${urlApi}`);
+
+    saveInArray(response.data);
+    
+    return response;
+}
+
 async function findOne(data) {
     let response = null;
-
-    response = await axios.get(`https://economia.awesomeapi.com.br/json/all`);
+    try {
+        response = await conectAwesomeApi();
+    } catch (e) {
+        response = coinsData;
+    }
 
     const arrayKeyResponse = Object.keys(response.data);
     
