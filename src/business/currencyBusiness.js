@@ -1,7 +1,4 @@
 const axios = require('axios');
-
-const {parse, stringify} = require('flatted');
-
 const coinsData = require('../util/coinsData.json');
 
 function convertValue(valueCoin, valueToConvert) { return valueCoin * valueToConvert }
