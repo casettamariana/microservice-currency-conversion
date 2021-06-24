@@ -17,13 +17,6 @@
 - [Jest](https://jestjs.io/)
 <br><br>
 
-## 💻‍ Extensões VSCode
-- [ESlint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-<!-- - [JSDoc](https://jsdoc.app/) -->
-- [Jest](https://jestjs.io/)
-<br><br>
-
 ## 🌐 API externa usada
 - [AwesomeAPI](https://docs.awesomeapi.com.br/api-de-moedas)
 <br><br>
