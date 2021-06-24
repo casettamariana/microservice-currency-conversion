@@ -67,11 +67,11 @@ yarn test
 
 ---
 
-<br/><br/>
+<br/>
 <div align=center>
 <h3>⬆️ O que gostaria de ter acrescentado</h3>
 </div>
-<br/><br/>
+<br/>
 - Gostaria de ter acrescentado a documentação do [Swagger.io](https://swagger.io/), para que a API seja melhor documentada para o cliente.
 
 - Feito mais testes.
