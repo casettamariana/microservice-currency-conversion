@@ -13,7 +13,6 @@
 - [NodeJs](https://nodejs.org/en/)
 - [Express](https://expressjs.com/pt-br/)
 - [Axios](https://express-validator.github.io/docs/)
-<!-- - [JSDoc](https://jsdoc.app/) -->
 - [Jest](https://jestjs.io/)
 <br><br>
 
@@ -54,28 +53,6 @@
 
 <br/>
 
-<!-- # Documentação
-## 📝  Gerar documentação com o comando
-
-```bash
-npm run docs
-```
-ou 
-```bash
-yarn docs
-```
-
-## 📄  Acessar a documentação
-
-Acesse o arquivo `docs\source\index.html` no seu navegador. -->
-
-
-### 🖥  Acessar página da documentação do Department API
-
-```
-http://localhost:3000/departments/api-docs/
-```
-
 ### ✅  Testes
 
 ```bash
@@ -100,3 +77,5 @@ yarn test
 - Feito mais testes.
 
 - Melhorar a resposta da API, usando outras API's que tenham outras tipos de moedas de mais países, como por exemplo, a INR (Índia), que foi usada por vocês no exemplo do desafio.
+
+- Padronizaria as respostas da API e as separaria em um arquivo, centralizando-as.
