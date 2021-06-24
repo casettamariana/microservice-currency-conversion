@@ -1,6 +1,4 @@
 const currencyBusiness = require('../business/currencyBusiness');
-const coinsData = require('../util/coinsData.json');
-
 
 async function findOne(req, res, next) {
     // "if" for parameter coin does not exist, because if not entered it will not fall in this route
