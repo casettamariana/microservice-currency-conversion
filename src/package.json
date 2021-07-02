@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.js",
     "dev": "node node_modules/nodemon/bin/nodemon.js index.js",
-    "test": "node node_modules/jest/bin/jest.js --no-cache --detectOpenHandles --forceExit"
+    "test": "nodemon node_modules/jest/bin/jest.js --no-cache --detectOpenHandles --forceExit"
   },
   "keywords": [],
   "author": "@casettamariana",

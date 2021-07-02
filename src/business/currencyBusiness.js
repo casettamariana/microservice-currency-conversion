@@ -17,6 +17,13 @@ async function conectAwesomeApi() {
 }
 
 async function findOne(data) {
+
+    data = data.replace(',', '.');
+
+    if(isNaN(data)) {
+        return { message: "Insert values integers" };
+    }
+    
     let response = null;
     try {
         response = await conectAwesomeApi();
