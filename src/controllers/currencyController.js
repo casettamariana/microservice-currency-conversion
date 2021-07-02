@@ -3,7 +3,7 @@ const currencyBusiness = require('../business/currencyBusiness');
 async function findOne(req, res, next) {
     if (!req.params.value) {
         // erro 400 (remete erro para o cliente)
-        return res.status(500).json({ error: "Param 'value' not found." });
+        return res.status(400).json({ error: "Param 'value' not found." });
     }
 
     const data = req.params.value;
@@ -21,7 +21,7 @@ async function findOne(req, res, next) {
     } catch (e) {
         next(e);
         // erro 500, catch..
-        return res.status(404).json({ error: "Error converting your currency, try again!" });
+        return res.status(500).json({ error: "Error converting your currency, try again!" });
     }
 }
 
