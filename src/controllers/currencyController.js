@@ -17,7 +17,7 @@ async function findOne(req, res, next) {
             res.status(404).json({ result: result })
         else
            // nesse caso, algo que não conseguimos tratar, quem sabe o 500?? 
-            res.status(404).json({ error: "Error converting your currency, try again!" })
+            res.status(500).json({ error: "Error converting your currency, try again!" })
     } catch (e) {
         next(e);
         // erro 500, catch..
