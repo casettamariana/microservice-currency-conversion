@@ -76,6 +76,4 @@ yarn test
 
 - Feito mais testes.
 
-- Melhorar a resposta da API, usando outras API's que tenham outras tipos de moedas de mais países, como por exemplo, a INR (Índia), que foi usada por vocês no exemplo do desafio.
-
 - Padronizaria as respostas da API e as separaria em um arquivo, centralizando-as.
